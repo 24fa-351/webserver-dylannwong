@@ -148,7 +148,7 @@ int main(int argc, char *argv[]) {
     if (client_socket == -1) {
       perror("Accept failed");
       return 1;
-    }
+    } 
 
     int *client_socket_ptr = malloc(sizeof(int));
     *client_socket_ptr = client_socket;
